@@ -1,6 +1,4 @@
 # Tugas-1-Jarkom-Fika-Arka-5027241071
-# **Tugas 1 Jaringan Komputer \- Subnetting, VLSM, dan Routing**
-
 Dokumentasi ini menjelaskan proses perancangan, alokasi IP, dan konfigurasi jaringan untuk memenuhi studi kasus Yayasan Pendidikan ARA, yang mencakup Kantor Pusat (HQ) dan Kantor Cabang (Branch).
 
 * **Nama:** Fika Arka Nuriyah 
