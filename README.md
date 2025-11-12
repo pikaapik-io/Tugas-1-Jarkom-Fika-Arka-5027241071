@@ -20,7 +20,8 @@ Topologi yang digunakan adalah model **Hub-and-Spoke** untuk Kantor Pusat dan sa
 * **Koneksi WAN (Pusat-Cabang):**  
   * **1 Jaringan "WAN Link":** Sebuah subnet /30 (10.111.3.240/30) digunakan untuk koneksi *point-to-point* antara Router0 (Pusat) dan Router1 (Cabang).
 
-![Uploading image.png…]()
+<img width="1399" height="831" alt="image" src="https://github.com/user-attachments/assets/6a266271-a7fa-4475-8ddf-196c8ae75c08" />
+
 
 
 ## **2\. Tabel Perhitungan VLSM**
@@ -63,3 +64,9 @@ Untuk Router Cabang (Router1), tidak perlu mengetahui rincian 5+ subnet di Kanto
 * **Router Cabang (Branch):**  
   * Menggunakan **1 Supernet Route** (hasil CIDR) untuk menjangkau *semua* jaringan di Kantor Pusat.  
   * Perintah: ip route 10.111.0.0 255.255.252.0 10.111.3.241
+ 
+ ### Bukti Berhasil
+ <img width="464" height="365" alt="image" src="https://github.com/user-attachments/assets/bb6572c4-b24c-4105-b641-14621fb4e6c5" />
+ <img width="467" height="365" alt="image" src="https://github.com/user-attachments/assets/dd0523fb-8116-40b6-ad2e-034c3c9c7439" />
+
+
